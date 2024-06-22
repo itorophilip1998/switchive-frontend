@@ -77,9 +77,9 @@ export default function ProductsPage({ initialProducts }) {
        <div className="col-3">
           
        <select value={sort} onChange={(e) => handleSortChange(e.target.value)}  className="form-select shadow-sm">
-          <option value="" selected>Sort</option>
-          <option value="asc">High Price</option>
-          <option value="desc">Low Price</option>
+          <option value="" selected>Sort By Price</option>
+          <option value="asc">Low Price</option>
+          <option value="desc">High Price</option>
         </select>
        </div>
       </div>
